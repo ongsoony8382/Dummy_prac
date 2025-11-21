@@ -15,7 +15,6 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class Customer {
-
     @Id
     @Column(name = "CUST_ID", length = 10, nullable = false)
     private String custId;
