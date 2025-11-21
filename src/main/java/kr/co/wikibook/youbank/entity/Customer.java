@@ -20,6 +20,7 @@ public class Customer {
     @Column(name = "CUST_ID", length = 10, nullable = false)
     private String custId;
 
+
     @Column(name = "CUST_NM", length = 10, nullable = false)
     private String custName;
 
