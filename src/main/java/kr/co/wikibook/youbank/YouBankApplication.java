@@ -1,0 +1,13 @@
+package kr.co.wikibook.youbank;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class YouBankApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(YouBankApplication.class, args);
+    }
+
+}
